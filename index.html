@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TradeCoinVN</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Background Image (space stars) */
+      /* .bg-stars {
+        background-image: url("star-background.jpg");
+      } */
+
+      .gradient-border {
+        position: relative;
+        background: black;
+        padding: 3px; /* Adjust padding to control border thickness */
+      }
+      .gradient-border::before {
+        content: "";
+        position: absolute;
+        top: -3px; /* Adjust these values to match the padding above */
+        left: -3px;
+        right: -3px;
+        bottom: -3px;
+        z-index: -1;
+        background: linear-gradient(
+          45deg,
+          #00e9ec,
+          #000000
+        ); /* Updated gradient colors */
+        border-radius: 8px; /* Match your element's border-radius */
+      }
+
+      @font-face {
+        font-family: "fonts-poppins";
+        src: url("fonts/Poppins-Medium.ttf");
+      }
+
+      @font-face {
+        font-family: "fonts-inter";
+        src: url("fonts/Inter/Inter-VariableFont_opsz\,wght.ttf");
+      }
+      .text-poppins {
+        font-family: "fonts-poppins";
+      }
+      .text-inter {
+        font-family: "fonts-inter";
+      }
+    </style>
+  </head>
+
+  <body class="bg-black">
+    <div class="relative text-white bg-black mx-auto max-w-[144rem]">
+      <div class="bg-stars min-h-screen mx-auto max-w-full">
+        <img src="star-background.jpg" class="absolute top-0 l" alt="">
+        <img
+          src="logo-tradecoinvn.png"
+          alt=""
+          srcset=""
+          class="w-[24rem] h-[8.4rem] mx-auto"
+        />
+  
+        <div class="absolute left-[9.8rem] top-[12.4rem]">
+          <img src="bull.png" class="w-[44.1rem] h-[45.1rem]" alt="" />
+        </div>
+        <img
+          src="Cộng đồng Crypto top 1 Việt Nam.png"
+          class="w-[67.6rem] h-[19.2rem] absolute left-[51.8rem] top-[15.4rem]"
+          alt=""
+        />
+        <img
+          src="image 29.png"
+          alt=""
+          class="w-[43.6rem] h-[10.65rem] absolute left-[51.8rem] top-[33.4rem]"
+          srcset=""
+        />
+        <a href="###">
+          <img
+            src="ButtonTele.png"
+            class="absolute w-[22.8rem] h-[3.8rem] left-[51.8rem] top-[46.4rem]"
+            alt=""
+          />
+        </a>
+        <a href="##">
+          <img
+            src="ButtonFb.png"
+            class="absolute w-[22.8rem] h-[3.8rem] left-[76.8rem] top-[46.4rem]"
+            alt=""
+          />
+        </a>
+        <a href="http://">
+          <img
+            src="ButtonSP.png"
+            class="absolute w-[22.8rem] h-[4.7rem] left-[51.8rem] top-[51.4rem]"
+            alt=""
+          />
+        </a>
+        <div
+          class="absolute top-[33.4rem] left-[110.7rem] w-[25.45rem] h-[20.7rem]"
+        >
+          <a>
+            <img
+              src="image 30.png"
+              class="absolute w-[22.45rem] h-[4.8rem] top-0 left-0"
+              alt=""
+              srcset=""
+            />
+          </a>
+          <a>
+            <img
+              src="image 31.png"
+              class="absolute w-[22.45rem] h-[3.8rem] top-[7.9rem] left-0"
+              alt=""
+              srcset=""
+            />
+          </a>
+  
+          <a>
+            <img
+              src="image 32.png"
+              class="absolute w-[22.45rem] h-[4.8rem] top-[14.5rem] left-0"
+              alt=""
+              srcset=""
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="absolute bg-black w-[144rem] mx-auto h-[126.4rem] top-[73.9rem]"
+      >
+        <img
+          src="Component 6.png"
+          class="w-[144rem] h-[126.4rem]"
+          alt=""
+          srcset=""
+        />
+      </div>
+      <div class="absolute bg-black w-[144rem] mx-auto top-[200.3rem]">
+        <div
+          class="absolute w-[122.2rem] h-[141.7rem] top-[10rem] left-[10.9rem]"
+        >
+          <img
+            src="Title.png"
+            class="absolute left-0 top-[9.3rem] w-[68.7rem] h-[30.8rem]"
+            alt=""
+          />
+          <div
+            data-aos="fade-up"
+            class="absolute w-[36.5rem] h-[36.1rem] bg-gradient-to-b rounded-[1.6rem] right-0 top-0 from-[#00E9EC] to-[#000000] hover:bg-[#00E9EC] hover:border-[#00E9EC] hover:border-[1px] hover:drop-shadow-[0_30px_30px_rgba(0,233,236)]"
+          >
+            <div data-aos="fade-up" class="absolute top-[3.6rem] left-[6.3rem]">
+              <p
+                class="text-poppins w-[23.8rem] h-[7.8rem] text-[2.6rem] text-center z-10"
+              >
+                Đăng kí tài khoản BYBIT
+              </p>
+            </div>
+            <img
+              src="Component 3.png"
+              class="absolute top-[11.6rem] w-[14.7rem] h-[14.7rem] left-[10.3rem]"
+              alt=""
+            />
+  
+            <div class="absolute top-[29.3rem] left-[5.8rem]">
+              <p
+                class="text-poppins w-[23.8rem] h-[7.8rem] text-[2.2rem] text-center z-10"
+              >
+                Mã giới thiệu: 19986
+              </p>
+            </div>
+          </div>
+  
+          <div
+          data-aos="fade-up"
+            class="absolute w-[36.5rem] h-[36.1rem] bg-gradient-to-b rounded-[1.6rem] right-0 top-[40.8rem] from-[#00E9EC] to-[#000000] hover:bg-[#00E9EC]! hover:border-[#00E9EC] hover:border-[1px] hover:drop-shadow-[0_30px_30px_rgba(0,233,236)]"
+          >
+            <div class="absolute top-[3.6rem] left-[6.3rem]">
+              <p
+                class="text-poppins w-[23.8rem] h-[7.8rem] text-[2.6rem] text-center z-10"
+              >
+                Đăng kí tài khoản Binance
+              </p>
+            </div>
+            <img
+              src="Property 1=image 6.png"
+              class="absolute top-[11.6rem] w-[14.7rem] h-[14.7rem] left-[10.3rem]"
+              alt=""
+            />
+  
+            <div class="absolute top-[29.3rem] left-[5.8rem]">
+              <p
+                class="text-poppins w-[23.8rem] h-[7.8rem] text-[2.2rem] text-center z-10"
+              >
+                Mã giới thiệu: 19986
+              </p>
+            </div>
+          </div>
+  
+          <div
+          data-aos="fade-up"
+            class="absolute w-[36.5rem] h-[36.1rem] bg-gradient-to-b rounded-[1.6rem] right-0 top-[81.6rem] from-[#00E9EC] to-[#000000] hover:bg-[#00E9EC]! hover:border-[#00E9EC] hover:border-[1px] hover:drop-shadow-[0_30px_30px_rgba(0,233,236)]"
+          >
+            <div class="absolute top-[3.6rem] left-[6.3rem]">
+              <p
+                class="text-poppins w-[23.8rem] h-[7.8rem] text-[2.6rem] text-center z-10"
+              >
+                Đăng kí tài khoản Bitget
+              </p>
+            </div>
+            <img
+              src="Property 1=image 9.png"
+              class="absolute top-[11.6rem] w-[14.7rem] h-[14.7rem] left-[10.3rem]"
+              alt=""
+            />
+  
+            <div class="absolute top-[29.3rem] left-[5.8rem]">
+              <p
+                class="text-poppins w-[23.8rem] h-[7.8rem] text-[2.2rem] text-center z-10"
+              >
+                Mã giới thiệu: 19986
+              </p>
+            </div>
+          </div>
+  
+          <div 
+          data-aos="fade-up"
+          class="absolute w-[36.6rem] h-[90.5rem] top-[51.2rem] left-[42.8rem]">
+              <div
+              class="absolute w-[36.5rem] h-[36.1rem] bg-gradient-to-b rounded-[1.6rem] right-0 top-0 from-[#00E9EC] to-[#000000] hover:bg-[#00E9EC] hover:border-[#00E9EC] hover:border-[1px] hover:drop-shadow-[0_30px_30px_rgba(0,233,236)]"
+            >
+              <div class="absolute top-[3.6rem] left-[6.3rem]">
+                <p
+                  class="text-poppins w-[23.8rem] h-[7.8rem] text-[2.6rem] text-center z-10"
+                >
+                  Đăng kí tài khoản OKX
+                </p>
+              </div>
+              <img
+                src="Property 1=image 8.png"
+                class="absolute top-[11.6rem] w-[14.7rem] h-[14.7rem] left-[10.3rem]"
+                alt=""
+              />
+    
+              <div class="absolute top-[29.3rem] left-[5.8rem]">
+                <p
+                  class="text-poppins w-[23.8rem] h-[7.8rem] text-[2.2rem] text-center z-10"
+                >
+                  Mã giới thiệu: 19986
+                </p>
+              </div>
+            </div>
+            <div
+            class="absolute w-[36.5rem] h-[36.1rem] bg-gradient-to-b rounded-[1.6rem] right-0 top-[40.8rem] from-[#00E9EC] to-[#000000] hover:bg-[#00E9EC] hover:border-[#00E9EC] hover:border-[1px] hover:drop-shadow-[0_30px_30px_rgba(0,233,236)]"
+          >
+            <div class="absolute top-[3.6rem] left-[6.3rem]">
+              <p
+                class="text-poppins w-[23.8rem] h-[7.8rem] text-[2.6rem] text-center z-10"
+              >
+                Đăng kí tài khoản MEXC
+              </p>
+            </div>
+            <img
+              src="Property 1=image 8.png"
+              class="absolute top-[11.6rem] w-[14.7rem] h-[14.7rem] left-[10.3rem]"
+              alt=""
+            />
+  
+            <div class="absolute top-[29.3rem] left-[5.8rem]">
+              <p
+                class="text-poppins w-[23.8rem] h-[7.8rem] text-[2.2rem] text-center z-10"
+              >
+                Mã giới thiệu: 19986
+              </p>
+            </div>
+          </div>
+          </div>
+          <div 
+          data-aos="fade-up"
+          class="absolute w-[36.5rem] h-[76.9rem] left-0 top-[64.8rem]">
+              <div
+              class="absolute w-[36.5rem] h-[36.1rem] bg-gradient-to-b rounded-[1.6rem] right-0 top-0 from-[#00E9EC] to-[#000000] hover:bg-[#00E9EC] hover:border-[#00E9EC] hover:border-[1px] hover:drop-shadow-[0_30px_30px_rgba(0,233,236)]"
+            >
+              <div class="absolute top-[3.6rem] left-[6.3rem]">
+                <p
+                  class="text-poppins w-[23.8rem] h-[7.8rem] text-[2.6rem] text-center z-10"
+                >
+                  Đăng kí tài khoản BingX
+                </p>
+              </div>
+              <img
+                src="Property 1=image 7 (1).png"
+                class="absolute top-[11.6rem] w-[14.7rem] h-[14.7rem] left-[10.3rem]"
+                alt=""
+              />
+    
+              <div class="absolute top-[29.3rem] left-[5.8rem]">
+                <p
+                  class="text-poppins w-[23.8rem] h-[7.8rem] text-[2.2rem] text-center z-10"
+                >
+                  Mã giới thiệu: 19986
+                </p>
+              </div>
+            </div>
+  
+            <div
+            class="absolute w-[36.5rem] h-[36.1rem] bg-gradient-to-b rounded-[1.6rem] right-0 top-[40.8rem] from-[#00E9EC] to-[#000000] hover:bg-[#00E9EC] hover:border-[#00E9EC] hover:border-[1px] hover:drop-shadow-[0_30px_30px_rgba(0,233,236)]"
+          >
+            <div class="absolute top-[3.6rem] left-[6.3rem]">
+              <p
+                class="text-poppins w-[23.8rem] h-[7.8rem] text-[2.6rem] text-center z-10"
+              >
+              Đăng kí tài khoản 
+              Hashkey
+              </p>
+            </div>
+            <img
+              src="Property 1=image 11.png"
+              class="absolute top-[11.6rem] w-[14.7rem] h-[14.7rem] left-[10.3rem]"
+              alt=""
+            />
+  
+            <div class="absolute top-[29.3rem] left-[5.8rem]">
+              <p
+                class="text-poppins w-[23.8rem] h-[7.8rem] text-[2.2rem] text-center z-10"
+              >
+                Mã giới thiệu: 19986
+              </p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="absolute bg-black top-[340rem] left-0 w-[144rem] h-[114.4rem]">
+          <img src="Frame 25.png" class="w-[144rem] h-[114.4rem]" alt="" srcset="">
+      </div>
+      <div class="absolute bg-black top-[452.4rem] w-[144rem] h-[62rem]">
+         <div class="absolute top-[12rem] left-[10rem] w-[56.6rem] h-[42rem]">
+            <div class="">
+              <img src="Đăng ký để nhận tin tức mới nhất của chúng tôi..png" class="absolute top-0 left-0 w-[56.6rem] h-[11.6rem]" alt="">
+            </div>
+            <div class="absolute left-0 top-[26.7rem]  w-[32.9rem] h-[15.3rem]">
+              <p class="absolute text-inter top-0 left-0 text-[1.6rem] w-[32.9rem] h-[3.8rem]">
+                  Nắm bắt sức mạnh biến đổi 
+                của tiền điện tử
+                </p>
+  
+                <div class="flex absolute gap-[1.9rem] top-[13.5rem] w-[14.25rem] h-[1.8rem]">
+                  <div>
+                     <img class="w-[1.8rem] h-[1.8rem]" src="Vector-1.png" alt="">
+                  </div>
+     
+                  <div>
+                     <img class="w-[1.8rem] h-[1.8rem]" src="Vector-3.png" alt="">
+                  </div>
+     
+                  <div>
+                     <img class="w-[1.8rem] h-[1.8rem]" src="Vector.png" alt="">
+                  </div>
+     
+                  <div>
+                     <img class="w-[2.55rem] h-[1.8rem]" src="Vector-2.png" alt="">
+                  </div>
+               </div>
+              
+            </div>
+  
+           
+          
+         </div>
+         <div     data-aos="fade-up" class="absolute top-[12rem] left-[78.4rem] w-[38.5rem] h-[7.7rem]">
+          <img src="Component 2.png" class=" absolute top-0 right-0 w-[38.5rem] h-[7.7rem]" alt="">
+          <div class="bg-black text-white py-8 w-[41.6rem] h-[12.7rem]  absolute top-[19.8rem] right-0">
+              <div class="max-w-4xl mx-auto px-4 flex justify-between">
+                <div>
+                  <h3 class="font-semibold text-[1.6rem] mb-3">Support</h3>
+                  <ul>
+                    <li><a href="#" class="text-gray-300 text-[1.6rem] hover:text-white">Documentation</a></li>
+                    <li><a href="#" class="text-gray-300 text-[1.6rem] hover:text-white">Contact</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 class="font-semibold text-[1.6rem] mb-3">Company</h3>
+                  <ul>
+                    <li><a href="#" class="text-gray-300 text-[1.6rem] hover:text-white">About Us</a></li>
+                    <li><a href="#" class="text-gray-300 text-[1.6rem] hover:text-white">Blog</a></li>
+                    <li><a href="#" class="text-gray-300 text-[1.6rem] hover:text-white">Services</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 class="font-semibold text-[1.6rem] mb-3">Legal</h3>
+                  <ul>
+                    <li><a href="#" class="text-gray-300 text-[1.6rem] hover:text-white">Privacy</a></li>
+                    <li><a href="#" class="text-gray-300 text-[1.6rem] hover:text-white">Terms</a></li>
+                    <li><a href="#" class="text-gray-300 text-[1.6rem] hover:text-white">Partners</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+       </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script type="text/javascript">
+       AOS.init();
+      window.onload = function () {
+        var html = document.querySelector("html");
+        if (window.innerWidth < 1920) {
+          html.style.fontSize = (window.innerWidth / 1920) * 10 + "px";
+          document.body.style.width = "unset";
+          // document.body.style.margin = "0rem  auto";
+
+          document.body.classList.remove("mx-auto");
+        } else {
+          html.style.fontSize = "10px";
+          // document.body.style.width = "1920px";
+          document.body.classList.add("mx-auto");
+        }
+      };
+      window.onresize = function () {
+        var html = document.querySelector("html");
+        if (window.innerWidth < 1920) {
+          html.style.fontSize = (window.innerWidth / 1920) * 10 + "px";
+          document.body.style.width = "unset";
+          document.body.classList.remove("mx-auto");
+        } else {
+          html.style.fontSize = "10px";
+          // document.body.style.width = "1920px";
+          document.body.classList.add("mx-auto");
+        }
+      };
+    </script>
+  </body>
+</html>
